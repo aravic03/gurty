@@ -1,0 +1,11 @@
+[project]
+name = "sred"
+version = "0.1.0"
+description = "Draft SR&ED (T661) project descriptions from git history, with a verification harness."
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
